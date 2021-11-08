@@ -1,0 +1,108 @@
+.viewPort{
+  &--bordo {
+    background-color: $bordo;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.projectsTextWrapper {
+  position: absolute;
+  top:50%;
+   display: flex;
+  // // align-items: center;
+ justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  // border: 1px solid blue;
+  transform: rotate(-90deg) translateX(-50%) translateY(-35%);
+  transform-origin: top left;
+}
+
+.text {
+  &--projects {
+  font-family: 'abc_whyte_semi-mono_trialRg';
+  font-size: 100px;
+  color: white;
+  }
+}
+
+.viewPort__innerCircle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  // top: 50%;
+  left: -300px;
+
+  width:55%;
+  height:85vh;
+  top:0;
+
+  // transform: rotate(-90deg)translateX(50%) translateY(8%);
+}
+
+
+@mixin on-circle($item-count, $circle-size, $item-size) {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: absolute;
+  
+  // overscroll-behavior: contain;
+
+  > * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    font-family: 'abc_whyte_inktrap_trialmedium';
+    font-size: 60px;
+    color: #fe0f0a;
+
+    $angle: (360 / $item-count);
+    $rot: -90;
+    $font-size: 60px;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        transform: rotate($rot * 1deg) translateX($circle-size / 2) translateY($font-size / -2);
+      }
+
+      $rot: $rot + $angle;     
+    }
+  }
+}
+
+.projectsListWrapperCircle {
+  @include on-circle($item-count: 18, $circle-size: 600px, $item-size: 60px); 
+
+}
+
+
+.insideLink, .insideLink:focus, .insideLink:visited {
+  cursor: pointer;
+  color: #fe0f0a;
+  text-decoration: none;
+}
+
+.imgContainer {
+  display: contents;
+}
+
+.img {
+  opacity: 0;
+  position: absolute;
+  width: 350px;
+  left: 50%;
+  margin-left: 100px ;
+  transition: 500ms;
+  &--stain {
+    width: 500px;
+  }
+  &--beblue {
+    width: 300px;
+  }
+}

@@ -1,0 +1,42 @@
+.headerWrapper {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
+}
+
+.navBarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+}
+
+.navBar {  
+  &--list {
+    font-family: 'abc_whyte_semi-mono_trialRg';
+    color: white;
+    font-size: 23px;
+    text-align: right;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+  }
+}
+
+// .blur {
+//   top: 0;
+//   // content:'';
+//   background: rgba(255, 255, 255, 0.1); 
+//   backdrop-filter: blur(4px); 
+//   position: absolute;
+
+//   width: 100vw;
+//   height: 140px;
+//   z-index: -2;
+ 
+// }

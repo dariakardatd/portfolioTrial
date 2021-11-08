@@ -1,0 +1,37 @@
+{% macro content(spec) %}
+<div id="secondViewPort" class="viewPort viewPort--darkRed">
+
+<div class="viewPort__inner">
+
+<div class="strategyTextWrapper">
+  <p class="text text--stroke">strategy;</p>
+  <p class="text text--full">strategy;</p>
+  <p class="text text--stroke">strategy;</p>
+  <p class="text text--stroke">strategy;</p>  
+</div>
+
+<div class="btnAboutWrapper">
+
+  <button class="btn btn--about">
+    <span class="circle"></span>
+    <span class="about">about me</span>
+  </button>
+
+  <p class="text text--full">developement;</p>
+  
+</div>
+
+<div class="designTextWrapper">
+  <p class="text text--stroke">design;</p>
+  <p class="text text--stroke">design;</p>
+  <p class="text text--full">design;</p>
+  <p class="text text--stroke">design;</p>
+  <p class="text text--stroke">design;</p>
+</div>
+
+ </div>
+
+
+</div>
+
+{% endmacro %}

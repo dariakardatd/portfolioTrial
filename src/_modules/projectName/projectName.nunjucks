@@ -1,0 +1,20 @@
+{% macro content(spec) %}
+<div class="viewPort viewPort--projectName peach">  
+
+  <div class="projectTitleContainer">
+
+    <div class="projectTitleInner">
+      <p class="text text--projectName">mylampedusa</p>
+    </div>
+    
+    <div class="btnContainer">
+      <a href="#projectOverview">
+      <button class="btn btn--arrowDown white">
+        <img src="images/arrows/arrowWhiteDown.svg" alt="" class="arrow arrow--downInCircle"/>
+      </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% endmacro %}

@@ -1,0 +1,15 @@
+{% macro content(spec) %}
+
+<div class="viewPort viewPort--projectConcept peach">  
+
+  <div class="projectConceptContainer"> 
+    <div class="conceptTitleContainer">
+      <p class="text text--title">{concept}</p>
+    </div> 
+    <p class="text text--overviewText">After a deep analysis of Lampedusa  Island and the numerous activities that it proposes, it was decided to create a travel application that could provide tourists a full range of services to promote the local area in a green and sustainable way.</p>
+  </div>
+</div>
+
+
+
+{% endmacro %}

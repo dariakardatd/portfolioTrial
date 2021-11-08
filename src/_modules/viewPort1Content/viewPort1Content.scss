@@ -1,0 +1,66 @@
+.viewPort {
+  //height: 100vh;
+  position: relative;
+  min-height: 100vh;
+  // border: 2px solid pink;
+  //max-height: 1000px;
+  overflow: hidden;
+  &--red {
+    background-color: $red;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.textWrapper {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+  &--welcome {
+    top: 3%;
+  }
+
+  &--nameAndButton {
+    top: 19%;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &--description {
+    top: 68%;
+  }
+}
+
+.text {
+  margin: 0;
+  // font-size: 110px;  
+  font-family: 'whyteinktrapblack';
+  color: $vividRed;
+
+  &--welcome {
+    -webkit-text-stroke: 2px $vividRed;
+    color: transparent;
+    font-size: 6vw;
+  }
+
+  &--name {
+    color: white;
+    font-family: 'whyteinktrapblack';
+    // font-size: 230px;
+    font-size: 13vw;
+    // font-weight: bold;
+    line-height: 10vw;
+    @media screen and (min-width: 1700px) {
+      font-size: 230px;
+    }
+  }
+  
+  &--description {
+    font-size: 5vw;
+  }
+}

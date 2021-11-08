@@ -1,0 +1,90 @@
+.viewPort {
+  &.mylampedusaViolet {
+    background-color: #A78DC6;
+    display: flex;
+    justify-content: space-between;    
+  }
+}
+
+
+.mylampedusaLogo {
+  width: 60vw;
+}
+
+.projectCardInner{
+  &--mylampedusaLogo{
+    flex: 0;
+  }
+}
+
+
+.logoWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logoContainer {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  // display: contents;
+}
+
+.iconsContainer {
+  position: relative;
+  // display: contents;
+}
+
+.logoIcons {
+  position: absolute;
+  // border: 3px solid;
+  bottom: 0;
+  right: 0;
+}
+
+.iconsAnimation {
+
+  &--delay0 {
+    opacity: 1;
+    animation: fadein 1.5s ease-in-out forwards;
+    animation-delay: 0s;
+  }
+
+  &--delay1 {
+    opacity: 0;
+    animation: fadeout 8s ease-in-out infinite;
+    animation-delay: 1.5s;
+  }
+
+  &--delay2 {
+    opacity: 0;
+    animation: fadeout 8s ease-in-out infinite;
+    animation-delay: 3.5s;
+  }
+
+  &--delay3 {
+    opacity: 0;
+    animation: fadeout 8s ease-in-out infinite;
+    animation-delay: 5.5s;
+  }  
+  
+  &--delay4 {
+    opacity: 0;
+    animation: fadeout 8s ease-in-out infinite;
+    animation-delay: 7.5s;
+  }
+}
+
+@keyframes fadein {
+  0% { opacity: 1; }
+  // 50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeout {
+  0% { opacity: 0; }
+  12% { opacity: 1; }
+  25% { opacity: 0; }
+  100% { opacity: 0; }
+}

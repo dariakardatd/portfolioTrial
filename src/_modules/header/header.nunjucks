@@ -1,0 +1,36 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+{% set _test = spec.test or '' %}
+
+  <header class="headerWrapper">
+ {{_test}}
+    <nav class="navBarWrapper">
+      <div class="headerLogo">
+        <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="51.231" height="28.408" viewBox="0 0 51.231 28.408">
+          <g id="Group_82" data-name="Group 82" transform="translate(-602 -10)">
+            <rect id="Rectangle_109" data-name="Rectangle 109" width="6.127" height="6.207" transform="translate(602 31.644)" fill="#fff"/>
+            <path id="Path_287" data-name="Path 287" d="M650.5,33.442c-.8-2.268-2.467-4.814-6.406-4.814-4.536,0-8,3.939-8,10.424,0,6.445,3.461,10.424,8,10.424,4.217,0,5.69-2.984,6.446-4.814h1.211V33.442Zm-5.252,12.852c-3.064,0-5.292-1.95-5.292-7.281,0-5.372,2.228-7.2,5.292-7.2,3.183,0,5.451,2.347,5.451,7.2S648.436,46.294,645.253,46.294Z" transform="translate(-16.697 -11.068)" fill="#fff"/>
+            <path id="Path_288" data-name="Path 288" d="M672.475,74.54h.892V71.747A6.824,6.824,0,0,0,672.475,74.54Z" transform="translate(-38.309 -36.688)" fill="#fff"/>
+            <path id="Path_289" data-name="Path 289" d="M671.592,10v4.575a13.259,13.259,0,0,0,1.251,6.267V10Z" transform="translate(-37.784)" fill="#fff"/>
+            <path id="Path_290" data-name="Path 290" d="M683.381,26.313l8.753-8.2H687.24L676.3,28.7l-1.233-1.234c1.671-1.512,2.109-2.745,2.109-6.087V10H674.68V20.847a12.233,12.233,0,0,0,.935,1.527h-.935v11.22h.9a11.828,11.828,0,0,0-.9,1.46v2.8h2.494V32.122l3.581-3.342,7.281,9.072h4.814Z" transform="translate(-39.619)" fill="#fff"/>
+            <path id="Path_291" data-name="Path 291" d="M674.674,71.74v2.793h0v-2.8Z" transform="translate(-39.616 -36.682)" fill="#fff"/>
+            <path id="Path_292" data-name="Path 292" d="M674.677,10h0V20.842l0,0Z" transform="translate(-39.616)" fill="#fff"/>
+            <rect id="Rectangle_110" data-name="Rectangle 110" width="0.003" height="11.22" transform="translate(635.058 22.374)" fill="#fff"/>
+          </g>
+      </svg>
+        </a>
+      </div>
+
+      <div class="headerMenu">
+        <ul class="navBar">
+          <li class="navBar navBar--list">.about</li>
+          <li class="navBar navBar--list">.projects</li>
+          <li class="navBar navBar--list">.contact</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <div class="blur"></div> -->
+  </header>
+{% endmacro %}

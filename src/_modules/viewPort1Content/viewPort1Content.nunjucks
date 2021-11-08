@@ -1,0 +1,34 @@
+{% macro content(spec) %}
+
+<div class="viewPort viewPort--red">
+
+  
+  <div class="textWrapper textWrapper--welcome">
+    <p class="text text--welcome">  &lt; welcome &gt; </p>
+  </div>
+
+
+
+    <div class="textWrapper textWrapper--nameAndButton">
+      <p class="text text--name">daria <br> kardat</p>
+
+      <a href="#secondViewPort">
+      <button class="btn btn--arrowDown">
+       <img src="images/arrows/arrowRedDown.svg" alt="" class="arrow arrow--downInCircle"/>
+      </button>
+      </a>
+
+    </div>
+
+
+
+
+
+    <div class="textWrapper textWrapper--description">
+      <p class="text text--description">{web developer}</p>
+      <p class="text text--description">{ux/ui designer}</p>
+    </div>
+
+</div>
+
+{% endmacro %}

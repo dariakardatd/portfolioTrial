@@ -1,0 +1,195 @@
+{% macro content(spec) %}
+
+<div id="mylampedusaGadgets" class="viewPort viewPort--mylampedusaGadgets">
+
+  <div class="sliderProject j-sliderProject">
+
+    <!-- FIRST SLIDE -->
+
+    <div id="switch" class="sliderProject__slide slide1" style="background-color: #FE716C;">
+
+      <div class="projectCard">
+        <div class="mylampedusaInner" style="flex: 0; position: absolute;">
+          <p class="text text--gradients" style="color: white;">{gadgets}</p>
+        </div>
+        
+        <div class="gadgetContainer gadgetContainer--tShirt">
+          <img class="" src="images/mylampedusa/gadgets/gadget1.png" alt="" style="width: 37vw; margin-left: 100px;"/>
+        </div>
+        <div id="arrow-right" class="btnWrapper btnWrapper--btnArrowRight">
+          <button class="btn btn--arrowRight">
+           <img src="images/arrows/arrowWhiteRight.svg" alt="" class="arrow arrow--right"/> 
+          </button>
+        </div>
+      
+      </div>
+
+    </div>
+
+    <!-- SECOND SLIDE -->
+
+    <div id="switch" class="sliderProject__slide slide2" data-theme='dark' style="background-color: #FAEE89;">
+
+      <div class="projectCard">
+
+        <div class="mylampedusaInner" style="flex: 0; position: absolute;">
+          <p class="text text--gradients">{gadgets}</p>
+        </div>
+
+        <div id="arrow-left" class="btnWrapper btnWrapper--btnArrowLeftSecondSlide">
+          <button class="btn btn--arrowLeft" style="margin-left: 100px;">
+            <img src="images/arrows/arrowBlackLeft.svg" alt="" class="arrow arrow--left"/>  
+          </button>
+        </div>
+
+        <div class="gadgetContainer gadgetContainer--bags" style="flex: 3;">
+          <img class="" src="images/mylampedusa/gadgets/gadget2.png" alt="" style="width: 27vw"/>          
+        
+        <div class="gadgetContainer gadgetContainer--threeBags">
+          <img class="" src="images/mylampedusa/gadgets/gadget2_mini1.png" alt="" style="width: 20vw"/>          
+          <img class="" src="images/mylampedusa/gadgets/gadget2_mini2.png" alt="" style="width: 20vw"/>          
+          <img class="" src="images/mylampedusa/gadgets/gadget2_mini3.png" alt="" style="width: 20vw"/>          
+        </div>
+        </div>
+
+        <div id="arrow-right" class="btnWrapper btnWrapper--btnArrowRight">
+          <button class="btn btn--arrowRight">
+            <img src="images/arrows/arrowBlackRight.svg" alt="" class="arrow arrow--right"/> 
+          </button>
+        </div>
+
+
+      </div>
+    </div> 
+
+    <!-- THIRD SLIDE -->
+
+    <div class="sliderProject__slide slide3" style="background-color: #A78DC6">
+
+      <div class="projectCard">
+        <div class="mylampedusaInner" style="flex: 0; position: absolute;">
+          <p class="text text--gradients" style="color: white;">{gadgets}</p>
+        </div>
+
+        <div id="arrow-left" class="btnWrapper btnWrapper--btnArrowLeft" style="flex: 1;">
+          <button class="btn btn--arrowLeft" style="margin-left: 100px;">
+            <img src="images/arrows/arrowWhiteLeft.svg" alt="" class="arrow arrow--left"/>  
+          </button>
+        </div>
+        
+        <div class="gadgetContainer gadgetContainer--bottles" style="justify-content: center;">
+          <img class="" src="images/mylampedusa/gadgets/gadget3_1.png" alt="" style="transform: rotate(
+            -15deg); margin-right: 30px; width: 11vw;"/>          
+          <img class="" src="images/mylampedusa/gadgets/gadget3_2.png" alt="" style= "width: 16vw;"/>         
+        </div>
+
+        <div id="arrow-right" class="btnWrapper btnWrapper--btnArrowRight">
+          <button class="btn btn--arrowRight">
+            <img src="images/arrows/arrowWhiteRight.svg" alt="" class="arrow arrow--right"/> 
+          </button>
+        </div>
+      
+      </div>
+
+    </div>
+
+    <!-- FOURTH SLIDE -->
+
+    <div class="sliderProject__slide slide4" style="background-color: #FE716C;">
+
+      <div class="projectCard">
+        <div class="mylampedusaInner" style="flex: 0; position: absolute;">
+          <p class="text text--gradients" style="color: white;">{gadgets}</p>
+        </div>
+
+        <div id="arrow-left" class="btnWrapper btnWrapper--btnArrowLeft" style="margin-left: 100px;">
+          <button class="btn btn--arrowLeft">
+            <img src="images/arrows/arrowWhiteLeft.svg" alt="" class="arrow arrow--left"/>  
+          </button>
+        </div>
+        
+        <div class="gadgetContainer gadgetContainer--phone" style="justify-content: center;">
+          <img class="" src="images/mylampedusa/gadgets/gadget4.png" alt="" style="width: 23vw"/>          
+       
+        </div>
+
+        <div id="arrow-right" class="btnWrapper btnWrapper--btnArrowRight">
+          <button class="btn btn--arrowRight">
+            <img src="images/arrows/arrowWhiteRight.svg" alt="" class="arrow arrow--right"/> 
+          </button>
+        </div>
+      
+      </div>
+
+    </div>
+
+    <!-- FIFTH SLIDE -->
+
+    <div class="sliderProject__slide slide5" data-theme='dark' style="background-color: #FAEE89;">
+
+      <div class="projectCard">
+        <div class="mylampedusaInner" style="flex: 0; position: absolute;">
+          <p class="text text--gradients" style="color: white;">{gadgets}</p>
+        </div>
+
+        <div id="arrow-left" class="btnWrapper btnWrapper--btnArrowLeftSecondSlide">
+          <button class="btn btn--arrowLeft" style="margin-left: 100px;">
+            <img src="images/arrows/arrowBlackLeft.svg" alt="" class="arrow arrow--left"/>
+          </button>
+        </div>
+        
+        <div class="gadgetContainer gadgetContainer--slippers">
+          <img class="" src="images/mylampedusa/gadgets/gadget5_1.png" alt=""  style="transform: rotate(19deg); width: 30vw">          
+          <img class="" src="images/mylampedusa/gadgets/gadget5_2.png" alt="" width="900px" style="width: 35vw;"/>         
+        </div>
+
+        <div id="arrow-right" class="btnWrapper btnWrapper--btnArrowRight">
+          <button class="btn btn--arrowRight">
+            <img src="images/arrows/arrowBlackRight.svg" alt="" class="arrow arrow--right"/>
+          </button>
+        </div>
+      
+      </div>
+
+    </div>
+
+    <!-- SIXTH SLIDE -->
+
+    <div class="sliderProject__slide slide6" data-theme='dark' style="background-color: #F5F5F5;">
+
+      <div class="projectCard">
+        <div class="mylampedusaInner" style="flex: 0; position: absolute;">
+          <p class="text text--gradients">{gadgets}</p>
+        </div>
+
+        <div id="arrow-left" class="btnWrapper btnWrapper--btnArrowLeftSecondSlide">
+          <button class="btn btn--arrowLeft" style="margin-left: 100px;">
+            <img src="images/arrows/arrowBlackLeft.svg" alt="" class="arrow arrow--left"/>
+          </button>
+        </div>
+        
+        <div class="gadgetContainer gadgetContainer--caps" style="justify-content: center;">
+          <img class="" src="images/mylampedusa/gadgets/gadget6.png" alt="" style="width: 45vw;"/>          
+       
+        </div>
+
+        <div class="btnWrapper btnWrapper--btnArrowDown">
+          <a href="#mylampedusaPrototype">
+            <button class="btn btn--arrowDownNoCircle">
+              <img src="images/arrows/arrowBlackDown.svg" alt="" class="arrow arrow--downNoCircle"/>
+            </button>
+          </a>
+        </div>
+      
+      </div>
+
+    </div>
+
+    <div class="dotsWrapper"></div>
+
+  </div>
+
+</div>
+
+
+{% endmacro %}

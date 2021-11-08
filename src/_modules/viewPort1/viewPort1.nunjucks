@@ -1,0 +1,8 @@
+{% macro content(spec) %}
+
+<div class="viewPort viewPort--{{spec.background}}">
+
+
+</div> 
+
+{% endmacro %}

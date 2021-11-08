@@ -1,0 +1,78 @@
+.viewPort {
+  &--mylampedusaGadgets {
+    // background-color: #FE716C;
+    .sliderProject__slide {
+      //min-height: 800px;
+    }
+  }
+  &--mylampedusaGadgetsYellow {
+    background-color: #FAEE89;
+  }
+}
+
+.gadgetContainer {
+  display: flex;
+  align-items: center;
+  flex: 5;
+  img {
+    display: block;
+  }
+
+  &--tShirt {
+    display: flex;
+    justify-content: center;
+  }
+
+  &--threeBags {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &--slippers {
+    display: flex;
+    flex: 6;
+    justify-content: space-evenly;
+  }
+}
+
+.dotsWrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btn__dot {
+  height: 15px;
+  width: 15px;
+  border: 1px solid white; 
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn__dot:hover, .btn__dot:focus {
+  background: white; 
+}
+
+.btn__dot.active {
+  background: white;
+}
+
+
+.sliderProject.dark {
+  .btn__dot {
+    border: 1px solid black; 
+    &:hover, :focus {
+      background: black;
+    }
+
+    &.active {
+      background: black;
+    }
+  }
+
+  
+}

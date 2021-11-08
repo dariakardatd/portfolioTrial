@@ -1,0 +1,42 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/header/header.nunjucks" as header %}
+{% import "_modules/projectName/projectName.nunjucks" as projectName %}
+{% import "_modules/projectOverview/projectOverview.nunjucks" as projectOverview %}
+{% import "_modules/projectConcept/projectConcept.nunjucks" as projectConcept %}
+{% import "_modules/elementsSlide/elementsSlide.nunjucks" as elementsSlide %}
+{% import "_modules/strategySlide/strategySlide.nunjucks" as strategySlide %}
+{% import "_modules/typography/typography.nunjucks" as typography %}
+{% import "_modules/projects/mylampedusa/mylampedusa.nunjucks" as mylampedusa %}
+{% import "_modules/projects/mylampedusa/mylampedusa_Icons/mylampedusa_Icons.nunjucks" as mylampedusa_Icons %}
+{% import "_modules/projects/mylampedusa/logo_Animation/logo_Animation.nunjucks" as logo_Animation %}
+{% import "_modules/projects/mylampedusa/gadgets_Carousel/gadgets_Carousel.nunjucks" as gadgets_Carousel %}
+{% import "_modules/projects/mylampedusa/prototyping/prototyping.nunjucks" as prototyping %}
+
+
+{% block content %}
+
+{{header.content({})}}
+{{projectName.content({})}}
+{{projectOverview.content({})}}
+{{projectConcept.content({})}}
+{{elementsSlide.content({})}}
+{{mylampedusa.content({})}}
+{{typography.content({})}}
+{{mylampedusa_Icons.content({})}}
+{{logo_Animation.content({})}}
+{{strategySlide.content({id:"mylampedusaStrategy", class:"viewPort--example"})}}
+{# {{strategySlide.content({id:"mylampedusaStrategy2"})}}
+{{strategySlide.content({id:"mylampedusaStrategy3"})}} #}
+{{gadgets_Carousel.content({})}}
+{{prototyping.content({})}}
+
+
+
+
+
+
+
+
+
+{% endblock %}

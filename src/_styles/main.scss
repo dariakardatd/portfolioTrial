@@ -1,0 +1,69 @@
+// Normalize Styles
+@import 'node_modules/normalize.css/normalize';
+
+$vividRed: #fe0f0a;
+$red: #9D0208;
+$bordo: #6A050F;
+$darkRed: #370617; 
+$violet:#A78DC6;
+$peach: #FF716C;
+$eggYellow: #FAEE89;
+$gray: #F5F5F5;
+$white: white;
+$black: black;
+$blue: #5EBAF8;
+
+
+// Import Modules
+@import '../_modules/link/link';
+@import '../_modules/header/header';
+@import '../_modules/viewPort1Content/viewPort1Content';
+@import '../_modules/projectName/projectName';
+@import '../_modules/projectOverview/projectOverview';
+@import '../_modules/projectConcept/projectConcept';
+@import '../_modules/elementsSlide/elementsSlide';
+@import '../_modules/strategySlide/strategySlide';
+@import '../_modules/typography/typography';
+// @import '../_modules/viewPort1/viewPort1';
+@import '../_modules/viewPort2/viewPort2';
+@import '../_modules/viewPort3/viewPort3';
+@import '../_modules/viewPort4/viewPort4';
+@import '../_modules/projects/mylampedusa/mylampedusa.scss';
+@import '../_modules/projects/mylampedusa/mylampedusa_Icons/mylampedusa_Icons.scss';
+@import '../_modules/projects/mylampedusa/logo_Animation/logo_Animation.scss';
+@import '../_modules/projects/mylampedusa/gadgets_Carousel/gadgets_Carousel.scss';
+@import '../_modules/projects/mylampedusa/prototyping/prototyping.scss';
+@import './fonts';
+@import './buttons';
+
+
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+}
+
+

@@ -1,0 +1,32 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{# {% import "_modules/link/link.nunjucks" as link %} #}
+{% import "_modules/header/header.nunjucks" as header %}
+{# {% import "_modules/viewPort1/viewPort1.nunjucks" as viewPort1 %} #}
+{% import "_modules/viewPort1Content/viewPort1Content.nunjucks" as viewPort1Content %}
+{% import "_modules/viewPort2/viewPort2.nunjucks" as viewPort2 %} 
+{% import "_modules/viewPort3/viewPort3.nunjucks" as viewPort3 %} 
+{% import "_modules/viewPort4/viewPort4.nunjucks" as viewPort4 %} 
+
+
+{# {% set backgroundContent = site.data.background %} #}
+
+{% block content %}
+
+{{header.content({})}}
+
+{# {% for item in backgroundContent.backgroundList %}
+  {{viewPort1.content(item)}} 
+{% endfor %} #}
+
+{{viewPort1Content.content({})}}
+{{viewPort2.content({})}}
+{{viewPort3.content({})}}
+{{viewPort4.content({})}}
+
+
+
+
+
+
+{% endblock %}

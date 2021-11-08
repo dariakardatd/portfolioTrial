@@ -1,0 +1,187 @@
+.viewPort {
+  
+  &--mylampedusaGrey {
+    background-color: $gray;
+    display: flex;
+    justify-content: space-between;    
+  }
+}
+
+// SLIDER
+
+.sliderProject {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  overflow: hidden;
+  min-height: 100vh;
+  white-space: nowrap;
+
+}
+
+.sliderProject__slide.fade {
+  opacity: 0;
+
+}
+
+.sliderProject__slide {
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+
+  display: inline-flex;
+  width: 100vw;
+  //height: 100vh;
+  // border:3px solid green;
+  min-height: 100vh;
+}
+
+.projectCard {
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  // opacity: 1;
+  // transition: opacity 0.3s ease-in-out;
+  justify-content: space-between;  
+
+}
+
+// .projectCard.fade {
+//   opacity: 0;
+// }
+
+// PROJECR DETAILS
+
+.text {
+  &--gradients {
+    color: black;
+    font-size: 3.2vw;
+    top: 40%;
+    margin-top: 120px;
+    margin-left: 35px;    
+  }
+  &--gradientsDescription{
+    color: black;
+    font-size: 1.7vw;
+    font-family: 'abc_whyte_semi-mono_trialRg';
+    margin-top: 50px;
+    margin-left: 35px;    
+  }
+}
+
+.gradientsInner {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+
+    .gradientContainer--main {
+      animation: mymove 7s ;
+    }
+  }
+}
+
+.gradientContainer {
+  position: absolute;
+  &--main {    
+    width: 51vw;
+    height: 41.3vw;
+    background-color: #B0ACC9;    
+    background-image: linear-gradient(#B0ACC9, #F0C1B1, #F7CCAE, #FCFD79);
+    left: -100%;
+  }
+  
+}
+
+@keyframes mymove {
+  0% {left: -100%;}
+  50% {left: 0%;}
+  100% {left: -100%;}
+}
+
+
+// 3 GRADIENTS VIEWPORT
+
+
+.gradientsInner {
+  &--threeGradients{
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+
+.gradientImg {
+  position: relative;
+  margin-right: 50px;
+  overflow: hidden;
+  &--dark{
+    margin-right: 0;
+  }
+}
+
+.gradientContainer {
+  &--blue {
+    width: 13.6vw;
+    height: 39.4vw;
+    background-image: linear-gradient(#5EBAF8, #AACAE9, #D1D3E2, #E8E0DE);
+    animation: viewmove 5s forwards;
+  }
+  &--orange {
+    width: 13.6vw;
+    height: 39.4vw;
+    left: -100%;
+    background-image: linear-gradient(#FF716C, #FFED8E);
+    animation: viewmove2 2.5s forwards;
+    animation-delay: 3s;
+  }
+  &--dark {
+    width: 13.6vw;
+    height: 39.4vw;
+    left: -100%;
+    background-image: linear-gradient(#151C34, #49509D, #A78DC6);
+    animation: viewmove2 3s forwards;
+    animation-delay: 6s;
+  }
+}
+
+@keyframes viewmove {
+  0% {left: -100%;}
+  50% {left: 0%;}
+}
+@keyframes viewmove2 {
+  0% {left: -100%;}
+  100% {left: 0%;}
+}
+
+
+.textAnimation {
+  opacity: 0;
+  &--delay0{
+    animation: fadeinText 2s ease-in-out forwards;
+  }
+
+  &--delay1 {
+    animation: fadeinText 2s ease-in-out forwards;
+    animation-delay: 3s;
+  }
+  &--delay2 {
+    animation: fadeinText 2s ease-in-out forwards;
+    animation-delay: 5.9s;
+  }
+}
+
+@keyframes fadeinText {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.imgMainGradient {
+  width: 51vw;
+}
+
+.imgGradients {
+    width: 13.6vw;
+  }

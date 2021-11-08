@@ -1,0 +1,66 @@
+
+.connectAndArrowtWrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+
+  & .arrow {
+    
+    &--slim {
+      width: auto ;
+      height: 8.6vw;
+      transition: transform ease 500ms;
+    }
+  }
+
+    &:hover .arrow--slim {
+      transform: translate(0, 120px);
+    } 
+}
+
+
+
+.connectTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.text {
+  &--connect {
+    color: white;
+    font-family: 'whyteinktrapblack';
+    font-size: 13vw;
+    line-height: 10vw;
+    // margin-right: 100px;
+      @media screen and (min-width: 1700px) {
+      font-size: 230px;
+      }
+    }
+    &--connectRed {
+      font-family: 'whyteinktrapblack';
+      font-size: 13vw;
+      line-height: 10vw;
+      margin-right: 150px;
+    }
+    &--contacts {
+      font-family: 'abc_whyte_semi-mono_trialRg';
+      color: white;
+      letter-spacing: .3px;
+      text-align: right;
+      // position: absolute;
+
+    }
+}
+
+.contactFooter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 50px;
+  right: 40px;
+  width: 96%;
+  // justify-content: space-between;
+}

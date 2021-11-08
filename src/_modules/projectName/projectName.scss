@@ -1,0 +1,32 @@
+.viewPort {
+
+  &--projectName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+.projectTitleContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectTitleInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.white {
+  border: solid 2px white !important;
+}
+
+.text {
+&--projectName {
+  color: white !important;
+  font-size: 10.5vw;
+  }
+}

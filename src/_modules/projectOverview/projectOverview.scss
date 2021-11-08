@@ -1,0 +1,65 @@
+.viewPort {
+  &--projectOverview {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+.projectOverviewInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projectOverviewTitleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  margin-top: 120px;
+}
+.projectOverviewTextContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.projectOverviewDescriptionTextContainer {
+  
+  max-width: 590px;
+  overflow-wrap: break-word;
+  white-space: initial;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.projectQuoteContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+
+
+.text {
+
+  &--projectQuote {
+  color: white;
+  font-size: 3.5vw;
+  }
+
+  &--titleOverview {
+    font-size: 1.6vw;
+    color: white;
+    font-family: 'abc_whyte_semi-mono_trialRg';
+    margin-bottom: 40px;
+  }
+
+  &--overviewText {
+    line-height: 45px;
+    font-size: 1.6vw;
+    color: white;
+    font-family: 'abc_whyte_semi-mono_trialRg';
+    margin-bottom: 40px;
+  }
+}

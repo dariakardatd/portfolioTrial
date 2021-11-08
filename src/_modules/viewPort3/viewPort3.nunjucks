@@ -1,0 +1,55 @@
+{% macro content(spec) %}
+<div class="viewPort viewPort--bordo">
+
+  
+
+
+
+      <div class="projectsTextWrapper">
+        <p class="text text--projects">.projects</p>
+      </div>
+
+    <div class="viewPort__innerCircle">
+      <div class="projectsListWrapperCircle">
+
+          <li class="project project--1"> <a href="https://www.w3schools.com" class="insideLink" id="1">#catigram</a></li>      
+          <li class="project project--2"> <a href="https://www.w3schools.com" class="insideLink" id="2">#beblue</a></li>
+          <li class="project project--3"> <a href="https://www.w3schools.com" class="insideLink" id="3">#fendi</a></li>
+          <li class="project project--4"> <a href="mylampedusa.html" class="insideLink" id="4">#mylampedusa</a></li>
+          <li class="project project--5"> <a href="https://www.w3schools.com" class="insideLink" id="5">#foodAssembly</a></li>
+          <li class="project project--6"> <a href="https://www.w3schools.com" class="insideLink" id="6">#stain</a></li>
+          <li class="project project--7"> <a href="https://www.w3schools.com" class="insideLink" id="7">#beanClub</a></li>
+          <li class="project project--8"> <a href="https://www.w3schools.com" class="insideLink" id="8">#italianExhibition</a></li>
+          <li class="project project--9"> <a href="https://www.w3schools.com" class="insideLink" id="9">#donatellaVersace</a></li>
+          <li class="project project--1"> <a href="https://www.w3schools.com" class="insideLink" id="1">#catigram</a></li>
+          <li class="project project--2"> <a href="https://www.w3schools.com" class="insideLink" id="2">#beblue</a></li>
+          <li class="project project--3"> <a href="https://www.w3schools.com" class="insideLink" id="3">#fendi</a></li>
+          <li class="project project--4"> <a href="mylampedusa.html" class="insideLink" id="4">#mylampedusa</a></li>
+          <li class="project project--5"> <a href="https://www.w3schools.com" class="insideLink" id="5">#foodAssembly</a></li>
+          <li class="project project--6"> <a href="https://www.w3schools.com" class="insideLink" id="6">#stain</a></li>
+          <li class="project project--7"> <a href="https://www.w3schools.com" class="insideLink" id="7">#beanClub</a></li>
+          <li class="project project--8"> <a href="https://www.w3schools.com" class="insideLink" id="8">#italianExhibition</a></li>
+          <li class="project project--9"> <a href="https://www.w3schools.com" class="insideLink" id="9">#donatellaVersace</a></li> 
+
+      </div>
+
+    </div>
+  
+
+    <div class="imgContainer">
+    
+      <img data-img='1' class="img " src="images/catigram/catigramHomepage.png"/>
+      <img data-img='2' class="img img--beblue" src="images/beblue/beblueHomepage.png"/>
+      <img data-img='3' class="img" src="images/fendi/fendiHomepage.png"/>
+      <img data-img='4' class="img" src="images/mylampedusa/mylampedusaHomepage.png"/>
+      <img data-img='5' class="img" src="images/foodAssemly/foodAssemlyHomepage.png"/>
+      <img data-img='6' class="img img--stain" src="images/stain/stainHomepage.png"/>
+      <img data-img='7' class="img" src="images/catigram/catigramHomepage.png"/>
+      <img data-img='8' class="img" src="images/catigram/catigramHomepage.png"/>
+      <img data-img='9' class="img" src="images/catigram/catigramHomepage.png"/>
+
+    </div>
+
+</div>
+
+{% endmacro %}

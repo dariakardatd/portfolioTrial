@@ -1,0 +1,10 @@
+.viewPort{
+  height: 100vh;
+  &--red {
+    background-color: #9D0208;
+  }
+  &--darkRed {
+    background-color: black;
+  }
+}
+

@@ -1,0 +1,80 @@
+{% macro content(spec) %}
+
+<div class="viewPort viewPort--mylampedusaGrey">
+
+  <div class="sliderProject j-sliderProject">
+
+    <div class="sliderProject__slide slide1">
+
+      <div class="projectCard">
+        <div class="projectCardInner">
+          <p class="text text--gradients">{gradients}</p>
+          <p class="text text--gradientsDescription">sunrise</p>
+        </div>
+
+        <div class="gradientsInner gradientsInner--gradientsInnertMain">
+          <div class="gradientContainer gradientContainer--main"></div>
+          <img class="imgMainGradient" src="images/mylampedusa/gradientMain.png" alt=""/>
+        </div>
+
+        <div id="arrow-right" class="carousel__button btnWrapper btnWrapper--btnArrowRight">
+          <button class="btn btn--arrowRight">
+             <img src="images/arrows/arrowBlackRight.svg" alt="" class="arrow arrow--right"/> 
+          </button>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="sliderProject__slide slide2">
+
+      <div class="projectCard">
+
+        <div class="projectCardInner">
+          <p class="text text--gradients">{gradients}</p>
+          <p class="text text--gradientsDescription textAnimation textAnimation--delay0">day</p>
+          <p class="text text--gradientsDescription textAnimation textAnimation--delay1">sunset</p>
+          <p class="text text--gradientsDescription textAnimation textAnimation--delay2">night</p>
+        </div>
+
+        <div id="arrow-left" class=" carousel__button btnWrapper btnWrapper--btnArrowLeft">
+          <button class="btn btn--arrowLeft">
+            <img src="images/arrows/arrowBlackLeft.svg" alt="" class="arrow arrow--left"/>     
+          </button>
+        </div>
+
+        <div class="gradientsInner gradientsInner--threeGradients">
+          <div class="gradientImg gradientImg--blue">
+            <div class="gradientContainer gradientContainer--blue gradientAnimation"></div>
+            <img class="imgGradients" src="images/mylampedusa/gradientBlue.png" alt=""/>
+          </div>
+
+          <div class="gradientImg gradientImg--orange">
+            <div class="gradientContainer gradientContainer--orange gradientAnimation"></div>
+            <img class="imgGradients" src="images/mylampedusa/gradientOrange.png" alt=""/>
+          </div>
+
+          <div class="gradientImg gradientImg--dark">
+            <div class="gradientContainer gradientContainer--dark gradientAnimation"></div>
+            <img class="imgGradients" src="images/mylampedusa/gradientDark.png" alt=""/>
+          </div>
+        </div>
+
+        
+        <div class="btnWrapper btnWrapper--btnArrowDown">
+          <a href="#typography">
+            <button class="btn btn--arrowDownNoCircle">
+            <img src="images/arrows/arrowBlackDown.svg" alt="" class="arrow arrow--downNoCircle"/>
+            </button>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  
+  </div>
+</div>
+
+
+{% endmacro %}

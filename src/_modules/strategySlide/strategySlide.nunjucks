@@ -1,0 +1,13 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+{% set _id = spec.id or '' %}
+{% set _class = spec.class or '' %}
+
+<div id="{{_id}}" class="viewPort {{_class}}" style="background-color: #FAEE89;">  
+  <div class="textTitleWrapper">
+    <p class="text text--title" style="color: black">{strategy}</p>
+  </div>
+</div>
+
+{% endmacro %}

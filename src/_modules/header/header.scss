@@ -18,6 +18,8 @@
 }
 
 .navBar {  
+  margin-bottom: 0;
+  // pointer-events: none;
   &--list {
     font-family: 'abc_whyte_semi-mono_trialRg';
     color: white;

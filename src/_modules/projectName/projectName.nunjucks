@@ -9,7 +9,7 @@
     
     <div class="btnContainer">
       <a href="#projectOverview">
-      <button class="btn btn--arrowDown white">
+      <button class="btn btn--arrowDownCircle white">
         <img src="images/arrows/arrowWhiteDown.svg" alt="" class="arrow arrow--downInCircle"/>
       </button>
       </a>

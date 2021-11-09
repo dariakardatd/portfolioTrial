@@ -1,9 +1,9 @@
 {% macro content(spec) %}
 
-<div class="viewPort viewPort--red">
+<div class="viewPort viewPort--homepageConnect red">
 
   <div class="projectsTextWrapper">
-    <p class="text text--projects">.contact</p>
+    <p class="text text--leftSideTextRotated">.contact</p>
   </div>
 
 

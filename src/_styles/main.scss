@@ -15,7 +15,9 @@ $blue: #5EBAF8;
 
 
 // Import Modules
+@import './icomoon';
 @import '../_modules/link/link';
+@import '../_modules/carouselSlider/carouselSlider';
 @import '../_modules/header/header';
 @import '../_modules/viewPort1Content/viewPort1Content';
 @import '../_modules/projectName/projectName';
@@ -28,7 +30,7 @@ $blue: #5EBAF8;
 @import '../_modules/viewPort2/viewPort2';
 @import '../_modules/viewPort3/viewPort3';
 @import '../_modules/viewPort4/viewPort4';
-@import '../_modules/projects/mylampedusa/mylampedusa.scss';
+@import '../_modules/projects/mylampedusa/gradients_Carousel/gradients_Carousel.scss';
 @import '../_modules/projects/mylampedusa/mylampedusa_Icons/mylampedusa_Icons.scss';
 @import '../_modules/projects/mylampedusa/logo_Animation/logo_Animation.scss';
 @import '../_modules/projects/mylampedusa/gadgets_Carousel/gadgets_Carousel.scss';
@@ -66,4 +68,8 @@ li {
   align-items: center;
 }
 
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
 

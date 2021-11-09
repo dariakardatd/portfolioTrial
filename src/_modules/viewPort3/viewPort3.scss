@@ -1,9 +1,11 @@
 .viewPort{
-  &--bordo {
-    background-color: $bordo;
+  &--homepageProjects {
     overflow: hidden;
     display: flex;
     align-items: center;
+  }
+  &.bordo {
+    background-color: $bordo;
   }
 }
 
@@ -22,9 +24,9 @@
 }
 
 .text {
-  &--projects {
+  &--leftSideTextRotated {
   font-family: 'abc_whyte_semi-mono_trialRg';
-  font-size: 100px;
+  font-size: 5.2vw;
   color: white;
   }
 }

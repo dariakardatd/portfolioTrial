@@ -1,13 +1,25 @@
 {% macro content(spec) %}
-<div id="secondViewPort" class="viewPort viewPort--darkRed">
+<div id="secondViewPort" class="viewPort viewPort--homepageStrategy  darkRed">
 
 <div class="viewPort__inner">
 
-<div class="strategyTextWrapper">
-  <p class="text text--stroke">strategy;</p>
-  <p class="text text--full">strategy;</p>
-  <p class="text text--stroke">strategy;</p>
-  <p class="text text--stroke">strategy;</p>  
+<!-- STRATEGY -->
+
+<div class="homepageTextAnimationWrapper">
+  <div class="strategyTextWrapper scrollLeftRight">
+    <!-- {# <p class="text text--stroke">strategy; strategy; strategy; strategy;</p> #} -->
+    <p class="text text--stroke">strategy;</p>
+    <p class="text text--full">strategy;</p>
+    <p class="text text--stroke">strategy;</p>
+    <p class="text text--stroke">strategy;</p>  
+  </div>
+  <div class="strategyTextWrapper scrollLeftRight">
+    <!-- {# <p class="text text--stroke">strategy; strategy; strategy; strategy;</p> #} -->
+    <p class="text text--stroke">strategy;</p>
+    <p class="text text--full">strategy;</p>
+    <p class="text text--stroke">strategy;</p>
+    <p class="text text--stroke">strategy;</p>  
+  </div>
 </div>
 
 <div class="btnAboutWrapper">
@@ -21,15 +33,27 @@
   
 </div>
 
-<div class="designTextWrapper">
-  <p class="text text--stroke">design;</p>
-  <p class="text text--stroke">design;</p>
-  <p class="text text--full">design;</p>
-  <p class="text text--stroke">design;</p>
-  <p class="text text--stroke">design;</p>
-</div>
 
- </div>
+<!-- DESIGN -->
+
+  <div class="homepageTextAnimationWrapper">
+    <div class="strategyTextWrapper scrollRightLeft">
+      <p class="text text--stroke">design;</p>
+      <p class="text text--full">design;</p>
+      <p class="text text--stroke">design;</p>
+      <p class="text text--stroke">design;</p>  
+      <p class="text text--stroke">design;</p>   
+    </div>
+    <div class="strategyTextWrapper scrollRightLeft">
+      <p class="text text--stroke">design;</p>
+      <p class="text text--full">design;</p>
+      <p class="text text--stroke">design;</p>
+      <p class="text text--stroke">design;</p>
+      <p class="text text--stroke">design;</p>  
+  
+    </div>
+  </div>
+</div>
 
 
 </div>

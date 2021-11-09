@@ -7,8 +7,9 @@ import 'core-js';
 import 'regenerator-runtime/runtime';
 import $ from 'jquery';
 import { Link } from '../_modules/link/link';
+import { SliderCards } from '../_modules/carouselSlider/carouselSlider';
 import { ViewPort3 } from '../_modules/viewPort3/viewPort3';
-import { SliderCards } from '../_modules/projects/mylampedusa/mylampedusa';
+// import { SliderCards } from '../_modules/projects/mylampedusa/mylampedusa';
 import { IconsZoom } from '../_modules/projects/mylampedusa/mylampedusa_Icons/mylampedusa_Icons';
 
 $(() => {

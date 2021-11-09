@@ -5,26 +5,35 @@
   // border: 2px solid pink;
   //max-height: 1000px;
   overflow: hidden;
-  &--red {
-    background-color: $red;
+  &--homepageWelcome {
+    // background-color: $red;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
+  &.red {
+  background-color: $red;
+}
+  
 }
 
 .textWrapper {
-  display: flex;
-  position: absolute;
-  flex-direction: column;
+  // display: flex;
+  // position: absolute;
+  // flex-direction: column;
   width: 100%;
-  align-items: center;
+  // align-items: center;
 
   &--welcome {
-    top: 3%;
+    display: flex;
+    // top: 3%;
+    justify-content: center;
   }
 
   &--nameAndButton {
-    top: 19%;
+    // top: 19%;
+    display: flex;
     padding-left: 30px;
     padding-right: 30px;
     flex-direction: row;
@@ -32,7 +41,9 @@
   }
 
   &--description {
-    top: 68%;
+    display: flex;
+    justify-content: center;
+    // top: 68%;
   }
 }
 

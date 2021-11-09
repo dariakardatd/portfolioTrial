@@ -7,49 +7,6 @@
   }
 }
 
-// SLIDER
-
-.sliderProject {
-  position: relative;
-  display: flex;
-  width: 100vw;
-  overflow: hidden;
-  min-height: 100vh;
-  white-space: nowrap;
-
-}
-
-.sliderProject__slide.fade {
-  opacity: 0;
-
-}
-
-.sliderProject__slide {
-  opacity: 1;
-  transition: opacity .3s ease-in-out;
-
-  display: inline-flex;
-  width: 100vw;
-  //height: 100vh;
-  // border:3px solid green;
-  min-height: 100vh;
-}
-
-.projectCard {
-  width: 100vw;
-  display: flex;
-  min-height: 100vh;
-  overflow: hidden;
-  // opacity: 1;
-  // transition: opacity 0.3s ease-in-out;
-  justify-content: space-between;  
-
-}
-
-// .projectCard.fade {
-//   opacity: 0;
-// }
-
 // PROJECR DETAILS
 
 .text {
@@ -122,12 +79,15 @@
   }
 }
 
+.active {
 .gradientContainer {
+  left: -100%;
   &--blue {
     width: 13.6vw;
     height: 39.4vw;
     background-image: linear-gradient(#5EBAF8, #AACAE9, #D1D3E2, #E8E0DE);
-    animation: viewmove 5s forwards;
+    animation: viewmove2 3s forwards;
+    animation-delay: 1s;
   }
   &--orange {
     width: 13.6vw;
@@ -135,7 +95,7 @@
     left: -100%;
     background-image: linear-gradient(#FF716C, #FFED8E);
     animation: viewmove2 2.5s forwards;
-    animation-delay: 3s;
+    animation-delay: 4s;
   }
   &--dark {
     width: 13.6vw;
@@ -143,8 +103,9 @@
     left: -100%;
     background-image: linear-gradient(#151C34, #49509D, #A78DC6);
     animation: viewmove2 3s forwards;
-    animation-delay: 6s;
+    animation-delay: 6.5s;
   }
+}
 }
 
 @keyframes viewmove {
@@ -156,26 +117,28 @@
   100% {left: 0%;}
 }
 
-
+.active {
 .textAnimation {
   opacity: 0;
   &--delay0{
-    animation: fadeinText 2s ease-in-out forwards;
+    animation: fadeinText 2s forwards;
+    animation-delay: 1s;
   }
 
   &--delay1 {
-    animation: fadeinText 2s ease-in-out forwards;
-    animation-delay: 3s;
+    animation: fadeinText 2s forwards;
+    animation-delay: 4s;
   }
   &--delay2 {
-    animation: fadeinText 2s ease-in-out forwards;
-    animation-delay: 5.9s;
+    animation: fadeinText 2s forwards;
+    animation-delay: 6.5s;
   }
+}
 }
 
 @keyframes fadeinText {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .imgMainGradient {

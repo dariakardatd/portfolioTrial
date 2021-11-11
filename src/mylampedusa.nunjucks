@@ -12,6 +12,7 @@
 {% import "_modules/projects/mylampedusa/logo_Animation/logo_Animation.nunjucks" as logo_Animation %}
 {% import "_modules/projects/mylampedusa/gadgets_Carousel/gadgets_Carousel.nunjucks" as gadgets_Carousel %}
 {% import "_modules/projects/mylampedusa/prototyping/prototyping.nunjucks" as prototyping %}
+{% import "_modules/footer_nextPrev/footer_nextPrev.nunjucks" as footer_nextPrev %}
 
 
 {% block content %}
@@ -30,6 +31,7 @@
 {{strategySlide.content({id:"mylampedusaStrategy3"})}} #}
 {{gadgets_Carousel.content({})}}
 {{prototyping.content({})}}
+{{footer_nextPrev.content({})}}
 
 
 

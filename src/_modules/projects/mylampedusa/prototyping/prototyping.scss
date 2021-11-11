@@ -6,36 +6,23 @@
   height: 100vh;
   width: 100vw;
 }
+ 
+.titleTextDescriptionContainer {
+  margin-right: 200px;
 
-.text {
-  &--title {
-    color: white;
-    font-size: 6.8vw;
-  }
-  &--homepageDescription {
-    color: white;
-    font-family: 'abc_whyte_semi-mono_trialRg';
-    font-size: 25px;
-    line-height: 37px;
-    inline-size: 15vw;
-    overflow-wrap: break-word;
-    white-space: initial;
-    margin-bottom: 35px;
+  &--dining {
+    margin-right: 0;
   }
 
-} 
+  &--excursions {
+    margin-left: 65px;
+    margin-right: 0;
+  }
 
-.viewPort {
-  &--prototypeContainer {
-   height: auto;
-   max-height: none;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: center;
+  &--rent {
+    margin-right: 20px;
   }
 }
-
 
 .homepageContainer {
   display: flex;
@@ -51,6 +38,10 @@
 .phonesAnimationWrapper {
   display: flex;
   align-items: center;
+
+  &--last {
+    margin-bottom: 250px;
+  }
 }
 
 .phoneOverEffectWrapper{
@@ -88,6 +79,7 @@
   position: absolute;
   bottom: 60px;
   right: 60px;
+  width: 2vw;
 
   &--map {
     bottom: 20px;
@@ -118,7 +110,10 @@
 .travelMatchInner {
   display: flex;
   flex-direction: column;
-  display: flex;
+  // border: 2px solid black;
+  flex-wrap: wrap;
+  width: 19vw;
+  align-content: center;
 }
 
 .travelMatchImgContainer {
@@ -205,10 +200,35 @@
 }
 
 .calendarAnimation {
+    width: 17vw;
     transition: transform 1s;
-    // transform-origin: 0 0;
+
+    &--calendar1, &--calendar3 {
+      margin-bottom: 150px;
+    }
+    &--calendar2, &--calendar4 {
+      margin-top: 100px; 
+      margin-bottom: 50px;
+    }
+
     &:hover {
-      transform: scale(1.20);
+      transform: scale(1.07);
     }
 }
 
+.imgs {
+  &--phonesPrototype {
+    width: 21vw;
+  }
+
+  &--phonePrototypeMatch {
+    width: 21vw; 
+    margin-bottom: 30px;
+  }
+
+  &--screenPrototypeMatch {
+    width: 20vw; 
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+}

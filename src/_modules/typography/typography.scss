@@ -1,7 +1,11 @@
+.typographyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 
 .typographyTitleContainer {
-  margin-top: 130px;
-  margin-left: 40px; 
   margin-bottom: 130px; 
 }
 
@@ -9,31 +13,13 @@
   margin-left: 40px; 
 }
 
+.typographyAndTypographyOptionsContainer {
+  margin-bottom: 40px;
+}
+
 .typographyDescriptionContainer {
   display: flex;
   justify-content: space-between;
-}
-
-
-
-.text {
-  &--typographyTitle {
-    color: white !important;
-    font-size: 3.2vw;    
-  }
-
-  &--typographyAndTypographyOptions {
-    color: white !important;
-    font-size: 1.7vw;
-    margin-bottom: 40px !important;    
-  }
-
-  &--typographyExplanation {
-    line-height: 30px;
-    color: white !important;
-    font-size: 1vw;
-    font-family: 'abc_whyte_semi-mono_trialRg' !important;
-  }
 }
 
 .typefaceExampleContainer {
@@ -42,13 +28,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
   }
-}
-
-.typefaceExample {
-  margin-bottom: 50px;
-}
-
-.typographyExplanationMarginBottom {
-  margin-bottom: 40px !important;
 }

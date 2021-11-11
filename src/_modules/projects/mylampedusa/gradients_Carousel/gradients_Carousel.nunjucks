@@ -1,6 +1,6 @@
 {% macro content(spec) %}
 
-<div class="viewPort viewPort--mylampedusaGrey">
+<div class="viewPort viewPort--gradients gray">
 
   <div class="sliderProject j-sliderProject">
 
@@ -8,8 +8,8 @@
 
       <div class="projectCard">
         <div class="projectCardInner">
-          <p class="text text--gradients">{gradients}</p>
-          <p class="text text--gradientsDescription">sunrise</p>
+          <p class="text text--slideTitle">{gradients}</p>
+          <p class="text text--slideTitleDescription">sunrise</p>
         </div>
 
         <div class="gradientsInner gradientsInner--gradientsInnertMain">
@@ -19,7 +19,7 @@
 
         <div id="arrow-right" class="carousel__button btnWrapper btnWrapper--btnArrowRight">
           <button class="btn btn--arrowRight">
-             <img src="images/arrows/arrowBlackRight.svg" alt="" class="arrow arrow--right"/> 
+            <span class="icon-arrowRight arrow arrow--right black"></span>
           </button>
         </div>
       </div>
@@ -31,15 +31,15 @@
       <div class="projectCard">
 
         <div class="projectCardInner">
-          <p class="text text--gradients">{gradients}</p>
-          <p class="text text--gradientsDescription textAnimation textAnimation--delay0">day</p>
-          <p class="text text--gradientsDescription textAnimation textAnimation--delay1">sunset</p>
-          <p class="text text--gradientsDescription textAnimation textAnimation--delay2">night</p>
+          <p class="text text--slideTitle">{gradients}</p>
+          <p class="text text--slideTitleDescription textAnimation textAnimation--delay0">day</p>
+          <p class="text text--slideTitleDescription textAnimation textAnimation--delay1">sunset</p>
+          <p class="text text--slideTitleDescription textAnimation textAnimation--delay2">night</p>
         </div>
 
         <div id="arrow-left" class=" carousel__button btnWrapper btnWrapper--btnArrowLeft">
           <button class="btn btn--arrowLeft">
-            <img src="images/arrows/arrowBlackLeft.svg" alt="" class="arrow arrow--left"/>     
+            <span class="icon-arrowLeft arrow arrow--left black"></span>
           </button>
         </div>
 
@@ -64,7 +64,7 @@
         <div class="btnWrapper btnWrapper--btnArrowDown">
           <a href="#typography">
             <button class="btn btn--arrowDownNoCircle">
-            <img src="images/arrows/arrowBlackDown.svg" alt="" class="arrow arrow--downNoCircle"/>
+              <span class="icon-arrowDown arrow arrow--down black"></span>
             </button>
           </a>
         </div>

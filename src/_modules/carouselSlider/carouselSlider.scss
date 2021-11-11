@@ -31,6 +31,19 @@
     //transform:translateX(0%);
 
   }
+
+  &.peach {
+    background-color: $peach;
+  }
+  &.eggYellow {
+    background-color: $eggYellow;
+  }
+  &.violet {
+    background-color: $violet;
+  }
+  &.gray {
+    background-color: $gray;
+  }
 }
 
 .projectCard {

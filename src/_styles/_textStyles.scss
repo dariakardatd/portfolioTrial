@@ -1,0 +1,183 @@
+.text {
+  margin: 0;
+  font-family: 'whyteinktrapblack';
+
+  // COLORS
+  
+  &.vividRed {
+    color: $vividRed;
+  }
+  &.black {
+    color: $black;
+  }
+  &.white {
+    color: $white;
+  }
+  &.peach {
+    color: $peach;
+  }
+  &.eggYellow {
+    color: $eggYellow;
+  }
+  &.stroke {
+    -webkit-text-stroke: 2px $vividRed;
+    color: transparent;
+  }
+
+    // STYLES
+
+        // HOMEPAGE
+
+        // VIEWPORT 1
+
+          &--welcome {
+            -webkit-text-stroke: 2px $vividRed;
+            color: transparent;
+            font-size: 6vw;
+          }
+
+          &--name {
+            font-size: 13vw;
+            line-height: 10vw;
+            @media screen and (min-width: 1700px) {
+              font-size: 230px;
+            }
+          }
+          
+          &--description {
+            font-size: 5vw;
+          }
+
+        // VIEWPORT 2
+
+          &--homepageTitle2 {
+          display: inline-block;
+          white-space: nowrap;
+          font-size: 6vw;
+          padding-right: 10px;
+        }
+
+        // VIEWPORT 3
+
+        &--leftSideTextRotated {
+          font-family: 'abc_whyte_semi-mono_trialRg';
+          font-size: 5.2vw;
+          }
+
+
+        // VIEWPORT 4
+
+        &--connect {
+          font-size: 13vw;
+          line-height: 10vw;
+            @media screen and (min-width: 1700px) {
+            font-size: 230px;
+            }
+          }
+          &--contacts {
+            font-family: 'abc_whyte_semi-mono_trialRg';
+            letter-spacing: .3px;
+            text-align: right;      
+          }
+
+
+        // PROJECT STYLE
+
+        &--title {
+          font-size: 6.8vw;
+        }
+
+        &--projectName {
+          font-size: 10.5vw;
+          }
+
+
+        &--projectQuote {
+          font-size: 3.5vw;
+          }
+        
+          &--titleOverview {
+            font-size: 1.6vw;
+            font-family: 'abc_whyte_semi-mono_trialRg';
+            margin-bottom: 40px;
+          }
+        
+          &--overviewText {
+            line-height: 45px;
+            font-size: 1.6vw;
+            font-family: 'abc_whyte_semi-mono_trialRg';
+            margin-bottom: 40px;
+          }
+
+        
+        // SLIDE DESSCRIPTION
+
+          &--slideTitle {
+          font-size: 3.2vw;
+          margin-top: 120px;
+          margin-left: 35px; 
+          }
+
+          &--slideTitleDescription{
+            font-size: 1.7vw;
+            font-family: 'abc_whyte_semi-mono_trialRg';
+            margin-top: 50px;
+            margin-left: 35px;    
+          }
+        
+        // TYPOGRAPHY
+
+          &--typographyAndTypographyOptions {
+            font-size: 1.7vw;
+            margin-bottom: 40px;    
+          }
+        
+          &--typographyExplanation {
+            line-height: 30px;
+            font-size: 1vw;
+            font-family: 'abc_whyte_semi-mono_trialRg';
+          }
+
+          // ICONS
+
+          &--iconsDescriptionMylampedusa {
+            font-size: 1.2vw;
+            font-family: 'abc_whyte_semi-mono_trialRg';
+            color: black;
+            text-align: left;
+            margin-top: 20px;
+          }    
+      
+          &--iconsTitlesMylampedusa {
+            font-size: 1.2vw;
+            font-family: 'abc_whyte_semi-mono_trialRg';
+           }
+
+          //  PROTOTYPING
+
+          &--prtotypingTitles {
+            font-size: 50px; 
+            margin-bottom: 20px;
+          }
+
+          &--prtotypingDescription {
+            color: white;
+            font-family: 'abc_whyte_semi-mono_trialRg';
+            font-size: 25px;
+            line-height: 37px;
+            inline-size: 15vw;
+            overflow-wrap: break-word;
+            white-space: initial;
+            margin-bottom: 35px;
+          }
+}
+
+
+
+
+// &--gradients {
+//   color: black;
+//   font-size: 3.2vw;
+//   top: 40%;
+
+// }

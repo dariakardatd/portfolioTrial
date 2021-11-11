@@ -1,41 +1,50 @@
 {% macro content(spec) %}
-<div id="typography" class="viewPort viewPort--violet"> 
+<div id="typography" class="viewPort violet"> 
   
   <div class="typographyContainer">
     <div class="typographyTitleContainer">
-      <p class="text text--typographyTitle">{typography}</p>
+      <p class="text text--slideTitle white">{typography}</p>
     </div>
 
 
     <div class="typographyDescriptionContainer">
 
       <div class="typographyNameAndDescription">
-          <p class="text text--typographyAndTypographyOptions">Gotham Rounded</p>
-          <p class="text text--typographyExplanation typographyExplanationMarginBottom">sans serif rounded<br> 
+        <p class="text text--typographyAndTypographyOptions white">Gotham Rounded</p>
+        <div class="typographyAndTypographyOptionsContainer">
+          <p class="text text--typographyExplanation white">sans serif rounded<br> 
             Typeface to reflect<br> 
             the calm & chill mood </p>
-          <p class="text text--typographyExplanation">— not too serious</p>
-          <p class="text text--typographyExplanation">— friendly</p>
+        </div>
+
+        <div>
+          <p class="text text--typographyExplanation white">— not too serious</p>
+          <p class="text text--typographyExplanation white">— friendly</p>
+        </div>
       </div>
 
       <div class="typefaceExampleContainer typefaceExampleContainer--column1">
         <div class="typefaceExample">
-          <p class="text text--typographyAndTypographyOptions">Book</p>
+          <p class="text text--typographyAndTypographyOptions white">Book</p>
           <img src="images/mylampedusa/typography/mylampedusaTypefaceBook.svg" alt="">
         </div>
 
         <div>
-          <p class="text text--typographyAndTypographyOptions">Medium</p>
+          <p class="text text--typographyAndTypographyOptions white">Medium</p>
           <img src="images/mylampedusa/typography/mylampedusaTypefaceMedium.svg" alt="">
       </div>
       </div>
 
       <div class="typefaceExampleContainer typefaceExampleContainer--column2">
-        <p class="text text--typographyAndTypographyOptions">Bold</p>
-        <img src="images/mylampedusa/typography/mylampedusaTypefaceBold.svg" alt="">
-        <button class="btn btn--arrowDownNoCircle">
-          <span class="icon-arrowDown arrow arrow--downNoCircle white"></span>
-        </button>
+        <div class="typefaceExampleTextWrapper">
+          <p class="text text--typographyAndTypographyOptions white">Bold</p>
+          <img src="images/mylampedusa/typography/mylampedusaTypefaceBold.svg" alt="">
+        </div>
+        <a href="#mylampedusaIcons">
+          <button class="btn btn--arrowDownNoCircle">
+            <span class="icon-arrowDown arrow arrow--downSlide white"></span>
+          </button>
+        </a>
       </div>
     </div>
   </div>

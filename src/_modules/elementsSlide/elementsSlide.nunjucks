@@ -1,8 +1,8 @@
 {% macro content(spec) %}
 
-<div class="viewPort viewPort--violet" >  
+<div class="viewPort violet" >  
   <div class="textTitleWrapper">
-    <p class="text text--title">{elements}</p>
+    <p class="text text--title white">{elements}</p>
   </div>
 </div>
 

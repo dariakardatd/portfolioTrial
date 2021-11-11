@@ -1,14 +1,3 @@
-.viewPort{
-  &--homepageProjects {
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  }
-  &.bordo {
-    background-color: $bordo;
-  }
-}
-
 
 .projectsTextWrapper {
   position: absolute;
@@ -23,13 +12,6 @@
   transform-origin: top left;
 }
 
-.text {
-  &--leftSideTextRotated {
-  font-family: 'abc_whyte_semi-mono_trialRg';
-  font-size: 5.2vw;
-  color: white;
-  }
-}
 
 .viewPort__innerCircle {
   display: flex;

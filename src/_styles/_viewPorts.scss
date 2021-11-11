@@ -1,0 +1,119 @@
+.viewPort {
+  //height: 100vh;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+
+// COLORS
+
+  &.red {
+  background-color: $red;
+}
+
+&.darkRed {
+  background-color: $darkRed;
+}
+
+&.bordo {
+  background-color: $bordo;
+}
+
+&.violet {
+  background-color: $violet;
+}
+
+&.peach {
+  background-color: $peach;
+}
+
+&.gray {
+  background-color: $gray;
+}
+
+&.eggYellow {
+  background-color: $eggYellow;
+}
+&.blue {
+  background-color: $blue;
+}
+
+
+
+
+
+
+// STYLES
+
+    // HOMEPAGE
+
+    &--homepageStrategy {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      white-space: nowrap;  
+    }
+
+
+    &--homepageWelcome {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+      
+    &--homepageProjects {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+
+    &--homepageConnect {
+      display: flex;
+      align-items: center;
+    }
+
+    // PROJECTS START
+
+    &--projectName {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &--projectOverview {
+      display: flex;
+      flex-direction: column;
+    }
+    
+        // GRADIENTS
+
+        &--gradients {
+          display: flex;
+          justify-content: space-between;    
+        }
+
+        // ICONS
+
+        &--icons {
+          display: flex;
+          justify-content: space-between;    
+        }
+
+        // LOGO
+
+        &--logo {
+          display: flex;
+          justify-content: space-between;    
+        }
+
+        // PROTOTYPING
+
+        &--prototypeContainer {
+          height: auto;
+          max-height: none;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+         }
+}

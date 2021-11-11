@@ -1,11 +1,3 @@
-.viewPort {
-  &--mylampedusaGrey {
-    background-color: $gray;
-    display: flex;
-    justify-content: space-between;    
-  }
-}
-
 .mylampedusaInner {
   inline-size: 21vw;
   overflow-wrap: break-word;
@@ -29,6 +21,10 @@
    
     &--firstRow {
       margin-bottom: 30px;
+    }
+
+    &--secondRow {
+      align-items: flex-start;
     }
   }
 
@@ -88,22 +84,6 @@
     transition: all 0.1s;
   }
 
-  .text {
-    &--iconsDescription {
-      font-size: 1.2vw;
-      font-family: 'abc_whyte_semi-mono_trialRg';
-      color: black;
-      text-align: left;
-      margin-top: 20px;
-    }    
-
-    &--iconsTitles {
-      font-size: 1.2vw;
-      font-family: 'abc_whyte_semi-mono_trialRg';
-      color: #FF716C;
-
-    }
-  }
 
 .titlesTextWrapper {
   position: absolute;
@@ -118,19 +98,15 @@
 
 .btnWrapper {
   &--btnArrowDownSquare {
-    width: 27.5vw;
+    height: 19.4vw;
+    width: 22.5vw;
+    // border: 2px solid black;
     // height: 369px;
     margin-right: 0;
     display: flex;
     justify-content: center;
   }
 }
-
-
-// .projectCard--mylampedusaSecondSlide {
-//   justify-content: flex-start;
-//   display: inline-flex;
-// }
 
 .btnWrapper--btnArrowLeftSecondSlide {
   flex: 1;

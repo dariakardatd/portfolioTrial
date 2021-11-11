@@ -1,30 +1,6 @@
-.viewPort {
-  
-  &--mylampedusaGrey {
-    background-color: $gray;
-    display: flex;
-    justify-content: space-between;    
-  }
-}
+
 
 // PROJECR DETAILS
-
-.text {
-  &--gradients {
-    color: black;
-    font-size: 3.2vw;
-    top: 40%;
-    margin-top: 120px;
-    margin-left: 35px;    
-  }
-  &--gradientsDescription{
-    color: black;
-    font-size: 1.7vw;
-    font-family: 'abc_whyte_semi-mono_trialRg';
-    margin-top: 50px;
-    margin-left: 35px;    
-  }
-}
 
 .gradientsInner {
   display: flex;

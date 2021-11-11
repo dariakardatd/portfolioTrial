@@ -1,6 +1,6 @@
 {% macro content(spec) %}
 
-<div id="mylampedusaIcons" class="viewPort viewPort--mylampedusaGrey">
+<div id="mylampedusaIcons" class="viewPort viewPort--icons gray">
 
   <div class="sliderProject j-sliderProject">
 
@@ -8,8 +8,8 @@
 
     <div class="projectCard">
       <div class="mylampedusaInner">
-        <p class="text text--gradients">{icons}</p>
-        <p class="text text--gradientsDescription">the conceptual icons for the categories were inspired by what Lampedusa is</p>
+        <p class="text text--slideTitle">{icons}</p>
+        <p class="text text--slideTitleDescription">the conceptual icons for the categories were inspired by what Lampedusa is</p>
       </div>
 
       <div class="iconsInner">
@@ -32,10 +32,10 @@
               </svg>              
               <img class="IconAndImg__img" src="images/mylampedusa/icons/icon1.png" alt=""/>
               <div class="titlesTextWrapper">
-                <p class="text text--iconsTitles">Favourites</p>
+                <p class="text text--iconsTitlesMylampedusa peach">Favourites</p>
               </div>
             </div>
-            <p class="text text--iconsDescription">Lampedusa is its stunning sea</p>            
+            <p class="text text--iconsDescriptionMylampedusa">Lampedusa is its stunning sea</p>            
           </div>
 
           <div class="IconAndImgAndText">
@@ -64,10 +64,10 @@
               </svg>                           
               <img class="IconAndImg__img" src="images/mylampedusa/icons/icon2.png" alt=""/>
               <div class="titlesTextWrapper">
-                <p class="text text--iconsTitles">Dining</p>
+                <p class="text text--iconsTitlesMylampedusa peach">Dining</p>
               </div>
             </div>
-            <p class="text text--iconsDescription">Lampedusa is its great food</p>
+            <p class="text text--iconsDescriptionMylampedusa">Lampedusa is its great food</p>
           </div>
         </div>
 
@@ -99,10 +99,10 @@
                           
               <img class="IconAndImg__img" src="images/mylampedusa/icons/icon3.png" alt=""/>
               <div class="titlesTextWrapper">
-                <p class="text text--iconsTitles">Excursions</p>
+                <p class="text text--iconsTitlesMylampedusa peach">Excursions</p>
               </div>
             </div>
-            <p class="text text--iconsDescription">Lampedusa is sand and rocks</p>
+            <p class="text text--iconsDescriptionMylampedusa">Lampedusa is sand and rocks</p>
           </div>
 
           <div class="IconAndImgAndText">
@@ -123,10 +123,10 @@
                        
               <img class="IconAndImg__img" src="images/mylampedusa/icons/icon4.png" alt=""/>
               <div class="titlesTextWrapper">
-                <p class="text text--iconsTitles">Rent</p>
+                <p class="text text--iconsTitlesMylampedusa peach">Rent</p>
               </div>
             </div>
-            <p class="text text--iconsDescription">Lampedusa is its green community </p>
+            <p class="text text--iconsDescriptionMylampedusa">Lampedusa is its green community </p>
           </div>
         </div>
 
@@ -134,7 +134,7 @@
 
       <div id="arrow-right" class="btnWrapper btnWrapper--btnArrowRight">
         <button class="btn btn--arrowRight">
-          <img src="images/arrows/arrowBlackRight.svg" alt="" class="arrow arrow--right"/> 
+            <span class="icon-arrowRight arrow arrow--right black"></span>
         </button>
       </div>
     </div>
@@ -147,12 +147,12 @@
 
           <div class="projectCard projectCard--mylampedusaSecondSlide">
               <div class="mylampedusaInner">
-                <p class="text text--gradients">{icons}</p>
+                <p class="text text--slideTitle">{icons}</p>
               </div>
 
               <div id="arrow-left" class="btnWrapper btnWrapper--btnArrowLeftSecondSlide">
                 <button class="btn btn--arrowLeft">
-                  <img src="images/arrows/arrowBlackLeft.svg" alt="" class="arrow arrow--left"/> 
+                  <span class="icon-arrowLeft arrow arrow--left black"></span>
                 </button>
               </div>
 
@@ -178,10 +178,10 @@
                                   
                       <img class="IconAndImg__img" src="images/mylampedusa/icons/icon5.png" alt=""/>
                       <div class="titlesTextWrapper">
-                        <p class="text text--iconsTitles">Map</p>
+                        <p class="text text--iconsTitlesMylampedusa peach">Map</p>
                       </div>
                     </div>
-                    <p class="text text--iconsDescription">Lampedusa is getting lost in its streets</p>
+                    <p class="text text--iconsDescriptionMylampedusa">Lampedusa is getting lost in its streets</p>
                     
                   </div>
 
@@ -219,10 +219,10 @@
                                               
                       <img class="IconAndImg__img" src="images/mylampedusa/icons/icon6.png" alt=""/>
                       <div class="titlesTextWrapper">
-                        <p class="text text--iconsTitles">Calendar</p>
+                        <p class="text text--iconsTitlesMylampedusa peach">Calendar</p>
                       </div>
                     </div>
-                    <p class="text text--iconsDescription">Lampedusa is enjoyable in all months</p>
+                    <p class="text text--iconsDescriptionMylampedusa">Lampedusa is enjoyable in all months</p>
                   </div>
                 </div>
 
@@ -252,16 +252,16 @@
                                   
                       <img class="IconAndImg__img" src="images/mylampedusa/icons/icon7.png" alt=""/>
                       <div class="titlesTextWrapper">
-                        <p class="text text--iconsTitles">Travel match</p>
+                        <p class="text text--iconsTitlesMylampedusa peach">Travel match</p>
                       </div>
                     </div>
-                    <p class="text text--iconsDescription">Lampedusa is its community</p>
+                    <p class="text text--iconsDescriptionMylampedusa">Lampedusa is its community</p>
                   </div>
 
                   <div class="btnWrapper btnWrapper--btnArrowDownSquare">
                     <a href="#mylampedusaLogo">
                       <button class="btn btn--arrowDownNoCircle">
-                        <img src="images/arrows/arrowBlackDown.svg" alt="" class="arrow arrow--down"/>
+                        <span class="icon-arrowDown arrow arrow--downSlide black"></span>
                       </button>
                     </a>
                   </div>

@@ -1,12 +1,3 @@
-.viewPort {
-
-  &--projectName {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
 
 .projectTitleContainer {
   display: flex;
@@ -19,10 +10,3 @@
   justify-content: center;
 }
 
-
-.text {
-&--projectName {
-  color: white !important;
-  font-size: 10.5vw;
-  }
-}

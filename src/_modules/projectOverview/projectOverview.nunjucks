@@ -4,18 +4,18 @@
 
   <div class="projectOverviewInner">
     <div class="projectOverviewTitleContainer">
-      <p class="text text--title">{overview}</p> 
+      <p class="text text--title white">{overview}</p> 
     </div>
 
     <div class="projectOverviewTextContainer">
       <div class="projectQuoteContainer">
-          <p class="text text--projectQuote">&lt;discover as a local&gt;</p>
+          <p class="text text--projectQuote white">&lt;discover as a local&gt;</p>
       </div>
         <div class="projectOverviewDescriptionTextContainer">
-          <p class="text text--titleOverview">Primary problem</p>
-          <p class="text text--overviewText">Lampedusa is s the most southern part of Italy and quite isolated. What brings to problem professional tourism is not well developed.</p>
-          <p class="text text--titleOverview">Secondary problem.</p>
-          <p class="text text--overviewText">People don’t know much about Lampedusa and sometimes think only of a bad reputation part.</p>
+          <p class="text text--titleOverview white">Primary problem</p>
+          <p class="text text--overviewText white">Lampedusa is s the most southern part of Italy and quite isolated. What brings to problem professional tourism is not well developed.</p>
+          <p class="text text--titleOverview white">Secondary problem.</p>
+          <p class="text text--overviewText white">People don’t know much about Lampedusa and sometimes think only of a bad reputation part.</p>
         </div>
     </div>
   </div>

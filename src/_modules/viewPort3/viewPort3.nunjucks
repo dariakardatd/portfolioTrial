@@ -6,7 +6,7 @@
 
 
       <div class="projectsTextWrapper">
-        <p class="text text--leftSideTextRotated">.projects</p>
+        <p class="text text--leftSideTextRotated white">.projects</p>
       </div>
 
     <div class="viewPort__innerCircle">

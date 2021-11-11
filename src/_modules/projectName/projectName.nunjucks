@@ -4,13 +4,13 @@
   <div class="projectTitleContainer">
 
     <div class="projectTitleInner">
-      <p class="text text--projectName">mylampedusa</p>
+      <p class="text text--projectName white">mylampedusa</p>
     </div>
     
     <div class="btnContainer">
       <a href="#projectOverview">
       <button class="btn btn--arrowDownCircle white">
-        <img src="images/arrows/arrowWhiteDown.svg" alt="" class="arrow arrow--downInCircle"/>
+        <span class="icon-arrowDown arrow arrow--downInCircle white"></span>
       </button>
       </a>
     </div>

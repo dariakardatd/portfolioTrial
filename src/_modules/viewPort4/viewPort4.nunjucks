@@ -3,15 +3,15 @@
 <div class="viewPort viewPort--homepageConnect red">
 
   <div class="projectsTextWrapper">
-    <p class="text text--leftSideTextRotated">.contact</p>
+    <p class="text text--leftSideTextRotated white">.contact</p>
   </div>
 
 
   <div class="connectAndArrowtWrapper">
 
     <div class="connectTextWrapper">
-      <p class="text text--connect">let's</p>
-      <p class="text text--connectRed">connect</p>      
+      <p class="text text--connect white">let's</p>
+      <p class="text text--connect vividRed">connect</p>      
     </div>
     <svg class="arrow arrow--slim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.028 167.508">
       <g id="Component_42_1" data-name="Component 42 – 1" transform="translate(0.707)">
@@ -24,8 +24,8 @@
   </div>
   
   <div class="contactFooter">
-    <p class="text text--contacts">+393470167108</p>
-    <p class="text text--contacts">darya.kardat@yandex.ru</p>
+    <p class="text text--contacts white">+393470167108</p>
+    <p class="text text--contacts white">darya.kardat@yandex.ru</p>
   </div>
 
 

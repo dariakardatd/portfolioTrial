@@ -15,7 +15,6 @@
     border-radius: 50%;
     box-shadow: inset 0 0 0 2px $vividRed;
     border: solid 2px $vividRed;
-
     transform: scale(1);
     animation: pulse-vividRed 2s infinite;
 
@@ -51,6 +50,11 @@
     width: 6vw;
   }
 
+  &--arrowLeftGadgetCarousel {
+    margin-left: 100px;
+    flex: 0;
+  }
+
   &--about {
     margin-right: 30px;
     font-family: 'abc_whyte_semi-mono_trialRg';
@@ -83,20 +87,64 @@
     }
   }
   
+// ARROWS
+
   & .arrow {
+    font-size: 6vw;
     width: 6vw;
+    color: transparent;
     display: block; 
 
-    &--right {
+      &--right {
+        font-size: 5vw;
         width: 6vw;
         transition: transform ease 300ms;
+
+        &.black {
+          -webkit-text-stroke: 2px $black;
+        }
+        &.white {
+          -webkit-text-stroke: 2px $white;
+        }
       }
 
-      &--downNoCircle {
-        margin-right: 35px;
+      &--left {
+        font-size: 5vw;
+        transition: transform ease 300ms;
+
+        &.black {
+          -webkit-text-stroke: 2px $black;
+        }
+        &.white {
+          -webkit-text-stroke: 2px $white;
+        }
+      }
+
+      &--down {
+        font-size: 6vw;
+        margin-right: 45px;
         width: 5vw;
         transition: transform ease 300ms;
 
+        &.black {
+          -webkit-text-stroke: 2px $black;
+        }
+
+        &.white {
+          -webkit-text-stroke: 2px $white;
+        }
+      }
+
+
+
+      &--downSlide {
+        margin: 0;
+        font-size: 6vw;
+        transition: transform ease 300ms;
+
+        &.black {
+          -webkit-text-stroke: 2px $black;
+        }
         &.white {
           -webkit-text-stroke: 2px $white;
         }
@@ -104,18 +152,16 @@
 
       &--downInCircle {
         font-size: 7vw;
-        -webkit-text-stroke: 2px rgb(254, 15, 10);
+        -webkit-text-stroke: 2px $vividRed;
         color: transparent;
         transition: transform ease 300ms;
+
+        &.white {
+          -webkit-text-stroke: 2px $white;
+        }
       }
   
-      &--left {
-        transition: transform ease 300ms;
-      }
-      &--down {
-        width: 5vw;
-        transition: transform ease 300ms;
-      }
+
   }
   &:hover .arrow--right {
     transform: translateX(50%);
@@ -123,23 +169,36 @@
   &:hover .arrow--left {
     transform: translateX(-50%);
   }
-  &:hover .arrow--downNoCircle {
+  &:hover .arrow--down {
     transform: translate(0, 50px);
   }
-  &:hover .arrow--down {
+  &:hover .arrow--downSlide {
     transform: translate(0, 50px);
   }
   &:hover .arrow--downInCircle {
     transform: translate(0, 50px);    
     animation: fill 2s forwards;
   }
+  &:hover .arrow--downInCircle.white {
+    transform: translate(0, 50px);    
+    animation: fillWhite 2s forwards;
+  }
 }
+
+
+
 
 @keyframes fill {
   0% {color: transparent;}
   25% {color: $vividRed;}
   50% {color: $vividRed;}
   100% {color: $vividRed;}
+}
+@keyframes fillWhite {
+  0% {color: transparent;}
+  25% {color: $white;}
+  50% {color: $white;}
+  100% {color: $white;}
 }
 
 @keyframes pulse-vividRed {

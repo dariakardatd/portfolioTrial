@@ -1,9 +1,3 @@
-.viewPort {
-  &--homepageConnect {
-    display: flex;
-    align-items: center;
-  }
-}
 
 .connectAndArrowtWrapper {
   display: flex;
@@ -32,33 +26,7 @@
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
-}
-
-.text {
-  &--connect {
-    color: white;
-    font-family: 'whyteinktrapblack';
-    font-size: 13vw;
-    line-height: 10vw;
-    // margin-right: 100px;
-      @media screen and (min-width: 1700px) {
-      font-size: 230px;
-      }
-    }
-    &--connectRed {
-      font-family: 'whyteinktrapblack';
-      font-size: 13vw;
-      line-height: 10vw;
-      margin-right: 150px;
-    }
-    &--contacts {
-      font-family: 'abc_whyte_semi-mono_trialRg';
-      color: white;
-      letter-spacing: .3px;
-      text-align: right;
-      // position: absolute;
-
-    }
+  margin-right: 150px;
 }
 
 .contactFooter {

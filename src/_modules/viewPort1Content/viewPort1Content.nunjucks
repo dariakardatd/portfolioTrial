@@ -11,7 +11,7 @@
 
 
     <div class="textWrapper textWrapper--nameAndButton">
-      <p class="text text--name">daria <br> kardat</p>
+      <p class="text text--name white">daria <br> kardat</p>
 
       <a href="#secondViewPort">
       <button class="btn btn--arrowDownCircle">
@@ -26,7 +26,7 @@
 
 
     <div class="textWrapper textWrapper--description">
-      <p class="text text--description">{web developer} <br> {ux/ui designer}</p>
+      <p class="text text--description vividRed">{web developer} <br> {ux/ui designer}</p>
     </div>
 
 </div>

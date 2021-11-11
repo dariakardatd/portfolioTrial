@@ -7,18 +7,16 @@
 
 <div class="homepageTextAnimationWrapper">
   <div class="strategyTextWrapper scrollLeftRight">
-    <!-- {# <p class="text text--stroke">strategy; strategy; strategy; strategy;</p> #} -->
-    <p class="text text--stroke">strategy;</p>
-    <p class="text text--full">strategy;</p>
-    <p class="text text--stroke">strategy;</p>
-    <p class="text text--stroke">strategy;</p>  
+    <p class="text text--homepageTitle2 stroke">strategy;</p>
+    <p class="text text--homepageTitle2 vividRed">strategy;</p>
+    <p class="text text--homepageTitle2 stroke">strategy;</p>
+    <p class="text text--homepageTitle2 stroke">strategy;</p>  
   </div>
   <div class="strategyTextWrapper scrollLeftRight">
-    <!-- {# <p class="text text--stroke">strategy; strategy; strategy; strategy;</p> #} -->
-    <p class="text text--stroke">strategy;</p>
-    <p class="text text--full">strategy;</p>
-    <p class="text text--stroke">strategy;</p>
-    <p class="text text--stroke">strategy;</p>  
+    <p class="text text--homepageTitle2 stroke">strategy;</p>
+    <p class="text text--homepageTitle2 vividRed">strategy;</p>
+    <p class="text text--homepageTitle2 stroke">strategy;</p>
+    <p class="text text--homepageTitle2 stroke">strategy;</p>  
   </div>
 </div>
 
@@ -29,7 +27,7 @@
     <span class="about">about me</span>
   </button>
 
-  <p class="text text--full">developement;</p>
+  <p class="text text--homepageTitle2 vividRed">developement;</p>
   
 </div>
 
@@ -38,18 +36,18 @@
 
   <div class="homepageTextAnimationWrapper">
     <div class="strategyTextWrapper scrollRightLeft">
-      <p class="text text--stroke">design;</p>
-      <p class="text text--full">design;</p>
-      <p class="text text--stroke">design;</p>
-      <p class="text text--stroke">design;</p>  
-      <p class="text text--stroke">design;</p>   
+      <p class="text text--homepageTitle2 stroke">design;</p>
+      <p class="text text--homepageTitle2 vividRed">design;</p>
+      <p class="text text--homepageTitle2 stroke">design;</p>
+      <p class="text text--homepageTitle2 stroke">design;</p>  
+      <p class="text text--homepageTitle2 stroke">design;</p>   
     </div>
     <div class="strategyTextWrapper scrollRightLeft">
-      <p class="text text--stroke">design;</p>
-      <p class="text text--full">design;</p>
-      <p class="text text--stroke">design;</p>
-      <p class="text text--stroke">design;</p>
-      <p class="text text--stroke">design;</p>  
+      <p class="text text--homepageTitle2 stroke">design;</p>
+      <p class="text text--homepageTitle2 vividRed">design;</p>
+      <p class="text text--homepageTitle2 stroke">design;</p>
+      <p class="text text--homepageTitle2 stroke">design;</p>
+      <p class="text text--homepageTitle2 stroke">design;</p>  
   
     </div>
   </div>

@@ -25,7 +25,7 @@
 {{typography.content({})}}
 {{mylampedusa_Icons.content({})}}
 {{logo_Animation.content({})}}
-{{strategySlide.content({id:"mylampedusaStrategy", class:"viewPort--example"})}}
+{{strategySlide.content({id:"mylampedusaStrategy", class:"viewPort--strategy"})}}
 {# {{strategySlide.content({id:"mylampedusaStrategy2"})}}
 {{strategySlide.content({id:"mylampedusaStrategy3"})}} #}
 {{gadgets_Carousel.content({})}}

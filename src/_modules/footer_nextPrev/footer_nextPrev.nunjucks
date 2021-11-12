@@ -1,32 +1,23 @@
 {% macro content(spec) %}
+
 <div class="footerNextPrev blue">
 
-  <div class="parent">
-    <div></div>
-  </div>
-
-
-
-  <!-- <svg id="svgClipPathID" xmlns="http://www.w3.org/2000/svg" width="31.55" height="58.1" viewBox="0 0 31.55 58.1" >
-    <path id="Path_952" data-name="Path 952" d="M-14607.594-22717.822a2.492,2.492,0,0,1-1.768-.732,2.5,2.5,0,0,1,0-3.535l24.782-24.781-24.782-24.783a2.5,2.5,0,0,1,0-3.535,2.5,2.5,0,0,1,3.535,0l26.55,26.551a2.5,2.5,0,0,1,.732,1.768,2.5,2.5,0,0,1-.732,1.768l-26.55,26.549A2.492,2.492,0,0,1-14607.594-22717.822Z" transform="translate(14610.094 22775.922)" fill="#fff"/>
-  </svg> -->
-  
-
     <button class="arrowBtn">
-      <span class="arrowBtn__clipped"></span>
+      <span class="arrowBtn__clipped arrowBtn__clipped--prev"></span>
+      <p class="text text--footerProject text-gradient white">Previous Project</p>
+    </button>
+    <button class="arrowBtn">
+      <span class="arrowBtn__clipped arrowBtn__clipped--top"></span>
+      <p class="text text--footerProject text-gradient white">Get to Top</p>
+    </button>
+    <button class="arrowBtn">
+      <span class="arrowBtn__clipped arrowBtn__clipped--next"></span>
+      <p class="text text--footerProject text-gradient white">Next Project</p>
     </button>
 
-  
-  <!-- <div class="arrowFooter">
-
-
-    <img src="images/arrows/arrowNext.svg" alt=""/> 
-
-  </div> -->
-
-
-
-
+<!-- 
+    <span class="icon-arrowLeft test test--left"></span> 
+    <span class="icon-arrowRight test test--right"></span>  -->
 
 </div>
 

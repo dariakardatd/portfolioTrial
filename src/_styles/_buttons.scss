@@ -50,7 +50,7 @@
     width: 6vw;
   }
 
-  &--arrowLeftGadgetCarousel {
+  &.GadgetCarousel {
     margin-left: 100px;
     flex: 0;
   }
@@ -91,14 +91,22 @@
 
   & .arrow {
     font-size: 6vw;
-    width: 6vw;
-    color: transparent;
     display: block; 
+
+    transition: all 0.5s ease;
+
+    background-size: 200%;
+    background-clip: text;
+    background-position: 0% center;
+    
+    -webkit-background-clip: text;
+    color: transparent;
+    
 
       &--right {
         font-size: 5vw;
-        width: 6vw;
-        transition: transform ease 300ms;
+        background-position: 100% center;
+        background-image: linear-gradient(to left, transparent 50%, #B0ACC9 50%, #F0C1B1, #F7CCAE, #FCFD79);
 
         &.black {
           -webkit-text-stroke: 2px $black;
@@ -110,7 +118,8 @@
 
       &--left {
         font-size: 5vw;
-        transition: transform ease 300ms;
+        background-image: linear-gradient(to right, transparent 50%, #B0ACC9 50%, #F0C1B1, #F7CCAE, #FCFD79);
+        background-position: 0% center;
 
         &.black {
           -webkit-text-stroke: 2px $black;
@@ -123,15 +132,21 @@
       &--down {
         font-size: 6vw;
         margin-right: 45px;
-        width: 5vw;
-        transition: transform ease 300ms;
+
+
+        // background-image: linear-gradient(to bottom, transparent 50%, #B0ACC9 50%, #F0C1B1, #F7CCAE, #FCFD79);
+        background-position: 0% 0%;
+        background-size: 100% 200%;
+
 
         &.black {
           -webkit-text-stroke: 2px $black;
+          background-image: linear-gradient(to bottom, transparent 50%, $black 50%);
         }
 
         &.white {
           -webkit-text-stroke: 2px $white;
+          background-image: linear-gradient(to bottom, transparent 50%, $white 50%);
         }
       }
 
@@ -140,78 +155,97 @@
       &--downSlide {
         margin: 0;
         font-size: 6vw;
-        transition: transform ease 300ms;
+        background-position: 0% 0%;
 
         &.black {
           -webkit-text-stroke: 2px $black;
+          background-image: linear-gradient(to bottom, transparent 50%, $black 50%);
         }
         &.white {
           -webkit-text-stroke: 2px $white;
+          background-image: linear-gradient(to bottom, transparent 50%, $white 50%);
         }
       }
 
       &--downInCircle {
         font-size: 7vw;
-        -webkit-text-stroke: 2px $vividRed;
+
         color: transparent;
-        transition: transform ease 300ms;
+        background-size: 100% 200%;
+
+        &.vividRed {
+          -webkit-text-stroke: 2px $vividRed;
+          background-image: linear-gradient(to bottom, transparent 50%, $vividRed 50%);
+          
+        }
 
         &.white {
           -webkit-text-stroke: 2px $white;
+          background-image: linear-gradient(to bottom, transparent 50%, $white 50%);
         }
       }
-  
+    }
 
-  }
   &:hover .arrow--right {
     transform: translateX(50%);
+    background-position: 0% -100%;
+    // background-position: 100% center;
   }
+
   &:hover .arrow--left {
     transform: translateX(-50%);
+    background-position: 100% center;
   }
+
   &:hover .arrow--down {
     transform: translate(0, 50px);
+    background-position: 100% 100% ;
   }
+
   &:hover .arrow--downSlide {
     transform: translate(0, 50px);
+    background-position: 100% 100% ;
   }
+
   &:hover .arrow--downInCircle {
-    transform: translate(0, 50px);    
-    animation: fill 2s forwards;
+    transform: translate(0, 50px);  
+    background-position: 100% 100% ;  
+    // animation: fill 2s forwards;
   }
+
   &:hover .arrow--downInCircle.white {
     transform: translate(0, 50px);    
-    animation: fillWhite 2s forwards;
+    // animation: fillWhite 2s forwards;
   }
 }
 
 
 
 
-@keyframes fill {
-  0% {color: transparent;}
-  25% {color: $vividRed;}
-  50% {color: $vividRed;}
-  100% {color: $vividRed;}
-}
-@keyframes fillWhite {
-  0% {color: transparent;}
-  25% {color: $white;}
-  50% {color: $white;}
-  100% {color: $white;}
-}
+// @keyframes fill {
+//   0% {color: transparent;}
+//   25% {color: $vividRed;}
+//   50% {color: $vividRed;}
+//   100% {color: $vividRed;}
+// }
+// @keyframes fillWhite {
+//   0% {color: transparent;}
+//   25% {color: $white;}
+//   50% {color: $white;}
+//   100% {color: $white;}
+// }
 
-@keyframes pulse-vividRed {
-	0% {
-		//transform: scale(0.95);
-		box-shadow: 0 0 0 0px $vividRed;
-	}
+// @keyframes pulse-vividRed {
+// 	0% {
+// 		//transform: scale(0.95);
+// 		box-shadow: 0 0 0 0px $vividRed;
+// 	}
 	
-	100% {
-		//transform: scale(1);
-		box-shadow: 0 0 10px 15px rgba($vividRed, 0);
-	}
-}
+// 	100% {
+// 		//transform: scale(1);
+// 		box-shadow: 0 0 10px 15px rgba($vividRed, 0);
+// 	}
+// }
 @keyframes pulse-white {
 	0% {
 		//transform: scale(0.95);
